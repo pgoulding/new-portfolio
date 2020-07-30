@@ -1,142 +1,188 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Patrick Goulding",
+    "description":"Software Engineer based in Seattle, WA",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "bio":"When I'm not making new recipes, hiking with my dog, or fiddling with hardware IOT devices, I create beautiful and accessible websites. Specializing in JavaScript, React and Node. I'm always open to learning new things and interesting challenges.",
+    "contactmessage":"Contact me for contract opportunities or full time employment.",
+    "email": "patrick@pgoulding.dev",
+    "phone": "(484) 301-5385",
+    "github":"https://github.com/pgoulding",
+    "calendar":"https://patrick-goulding.youcanbook.me",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Seattle",
+      "state":"WA"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.pgoulding.dev",
+    "resumedownload":"./Patrick%20Goulding%20Resume.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/p_goulding",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/patrickgoulding/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/pgoulding",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Turing School of Software & Design",
+        "degree":"Front End Engineering Program",
+        "graduated":"September 2019",
+        "description":"Turing School of Software and Design is an immersive training in fundamental web technologies. Web development with JavaScript, Professional Client-Side development, and desktop and mobile applications with web technologies."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Community College of the Air Force",
+        "degree":"Electronic Systems Technology",
+        "graduated":"August 2013",
+        "description":"The Electronics Systems Technology program teaches students to design and build electronic systems and learn about analog and digital electronics. They are able to apply the engineering and mathematical principles that they learn in order to implement and maintain electronic systems, such as computers and controllers."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"SchoolSAFE Communications",
+        "title":"Software Developer",
+        "years":"September 2019 - July 2020",
+        "description":"Redesigned front and backend of legacy app built in Flash and PHP used for emergency school and 911 communications to utilize new technologies such as PostgreSQL, Node, React, and Redux."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Heart Hospital of Austin",
+        "title":"Tech Analyst II",
+        "years":"May 2017 - January 2019",
+        "description":"Worked at Saint David's Medical Center in downtown Austin until promotion and transfer to Heart Hospital of Austin, supporting the hospital's network infrastructure, systems administration as well as day to day problems with managing 1000+ desktops, laptops, cell phones, and other proprietary devices."
+      },
+      {
+        "company": "United States Air Force",
+        "title": "Radio Frequency Transmissions Specialist (3D1X3)",
+        "years": "March 2011 - March 2017",
+        "description": "Worked on Radios, Sattelites and Antennas as a Ground Control Station maintenance technician for the remotely piloted aircraft such as the MQ-1 Predator and MQ-9 Reaper."
+      },
+      {
+        "company": "Walker Products",
+        "title": "Network Administrator",
+        "years": "October 2009 - February 2017",
+        "description": "Worked as a Network Administrator, overseeing a variety of day to day operations: including Cisco and Dell Network administration, Windows support and Help Desk, Hardware Repair, Cisco and Panasonic PBX Phone Configuration"
+      },
+      {
+        "company": "Goulding Technology",
+        "title": "Owner and web designer",
+        "years": "January 2008 - September 2009",
+        "description": "Operated as a sole proprietorhip building websites, repairing computers, setting up home and office networks, and offering technical assistance with anything the customer needed."
+      },
+      {
+        "company": "Premier Home Theater",
+        "title": "Audio VIsual Technician - Network and Phones specialist",
+        "years": "May 2007 - September 2007",
+        "description": "Contract work for building fully integrated smart homes in the Roaring Fork Valley. Setup networks, phones and home automation consoles."
+      },
+      {
+        "company": "Paragon Technology Group",
+        "title": "Network Technician",
+        "years": "November 2006 - April 2007",
+        "description": "Worked as a network technician building and troubleshooting networks to connect smart home devices such as lighting, media servers, phones, security cameras and computers."
+      },
+      {
+        "company": "ByteMarks Computer Repair",
+        "title": "Computer Repair Technician",
+        "years": "January 2006 - November 2006",
+        "description": "Worked as a computer repair technician for a small reapir shop. Designed and setup company website, wrote script to enable easier remote troubleshooting of computers with VNC, performed antivirus cleanup, spyware removal and cleanups for client's computers"
+      },
+      {
+        "company": "Computers4Kids",
+        "title": "Computer Repair Technician",
+        "years": "January 2006 - July 2006",
+        "description": "Refurbished older donated computers to be upcycled to low income families. Designed process for testing, formatting and reimaging computers, for entire shop. "
+      },
+      {
+        "company": "Community Broadband Network",
+        "title": "Intern Netwroking/ISP support",
+        "years": "September 2005 - March 2006",
+        "description": "First job in the Tech field, setup some long range wideband antennas, learned the basics of the OSI Model, TCP/IP whiles asking a LOT of questions."
       }
     ],
     "skills":[
+        {
+          "name": "HTML",
+          "level": "90%"
+        },
+        {
+          "name":"CSS/SCSS",
+          "level":"80%"
+        },
       {
-        "name":"Python",
-        "level":"60%"
+        "name":"JavaScript",
+        "level":"75%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"ReactJS",
+        "level":"80%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"Redux",
+        "level":"65%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name": "SQL",
+        "level": "60%"
+      },
+      {
+        "name": "Node/Express",
+        "level": "70%"
+      },
+      {
+        "name": "Unix/Linux",
+        "level": "60%"
+      },
+      {
+        "name": "BASH",
+        "level": "55%"
       },
       {
         "name":"PHP",
-        "level":"80%"
+        "level":"40%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"Python",
+        "level":"40%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Palette Picker",
+        "category":"App to create a comlimentary color scheme and save to a database.",
+        "image":"palette-picker.png",
+        "url":"https://david5280.github.io/palette-picker-fe/#/palette-picker-fe/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"NASA Pic of the day",
+        "category":"A simple site built with Vue for a challenge to learn and deploy a site in a new framework in a weekend.",
+        "image":"nasa-apod.png",
+        "url":"https://quirky-khorana-a6d420.netlify.app/#/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Compass Job Search",
+        "category":"Job search app for people who are considering different locations and gives detailed city info for that job.",
+        "image":"compass-job-search.png",
+        "url":"https://master.d1unm2lt3lovzm.amplifyapp.com/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Light Side",
+        "category":"A Star Wars fan site where you can cross refernce all canon Star Wars data, save favorites and learn more about the star wars universe.",
+        "image":"light-side.png",
+        "url":"https://pgoulding.github.io/lightside/"
       }
     ]
   }

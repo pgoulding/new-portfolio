@@ -1,6 +1,34 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+   constructor() {
+      super()
+      this.state={
+         contactName:"",
+         contactEmail:"",
+         contactSubject:"",
+         contactMessage:""
+      }
+   }
+
+   componentDidMount() {
+      const script = document.createElement("script");
+      script.src = "https://platform.twitter.com/widgets.js";
+      document.getElementsByClassName("twitter-embed")[0].appendChild(script);
+   }
+
+   handleChange(e) {
+      const { name, value } = e.target
+      this.setState({[name]:value})
+   }
+
+   sendForm(e) {
+      e.preventDefault()
+      console.log(this.state)
+   }
+
+
+
   render() {
 
     if(this.props.data){
@@ -27,8 +55,16 @@ class Contact extends Component {
 
             <div className="ten columns">
 
+                <h2>Contact Details</h2>
                   <p className="lead">{message}</p>
-
+                <p className="address">
+                   <span>{name}</span><br />
+                   <span>
+                      {city}, {state}
+                   </span><br />
+                   <span>{phone}</span><br />
+                   <span>{email}</span>
+               </p>
             </div>
 
          </div>
@@ -36,7 +72,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form onSubmit={(e)=> this.sendForm(e)}id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -76,37 +112,20 @@ class Contact extends Component {
 
 
             <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
-					   </p>
-				   </div>
 
                <div className="widget widget_tweets">
                   <h4 className="widget-title">Latest Tweets</h4>
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
+                  <div className="twitter-embed">
+                     <a
+                        className="twitter-timeline"
+                        data-theme="dark"
+                        data-tweet-limit="3"
+                        data-chrome="noheader nofooter noborders"
+                        href="https://twitter.com/p_goulding"
+                     >
+                        Tweets by are my own.
+                     </a>
+                  </div>
 		         </div>
             </aside>
       </div>
