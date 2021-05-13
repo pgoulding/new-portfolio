@@ -3,8 +3,8 @@
     "name":"Patrick Goulding",
     "description":"Software Engineer based in Seattle, WA",
     "image":"profilepic.jpg",
-    "bio":"When I'm not making new recipes, hiking with my dog, or fiddling with hardware IOT devices, I create beautiful and accessible websites. Specializing in JavaScript, React and Node. I'm always open to learning new things and interesting challenges.",
-    "contactmessage":"Contact me for contract opportunities or full time employment.",
+    "bio":"When I'm not trying new recipes, hiking with my dog, or fiddling with IoT automation, I create beautiful and accessible websites. Specializing in JavaScript, React and Node. I'm always open to learning new things and interesting challenges.",
+    "contactmessage":"Contact me by email for technical writing, conference talks, buisness ideas, or presentations. Not currently looking for full time employment.",
     "email": "patrick@pgoulding.dev",
     "phone": "(484) 301-5385",
     "github":"https://github.com/pgoulding",
@@ -40,7 +40,7 @@
         "school":"Turing School of Software & Design",
         "degree":"Front End Engineering Program",
         "graduated":"September 2019",
-        "description":"Turing School of Software and Design is an immersive training in fundamental web technologies. Web development with JavaScript, Professional Client-Side development, and desktop and mobile applications with web technologies."
+        "description":"Turing School of Software and Design is an immersive training in fundamental web technologies. Web development with JavaScript, React, Professional Client-Side development, desktop and mobile applications with web technologies."
       },
       {
         "school":"Community College of the Air Force",
@@ -51,28 +51,34 @@
     ],
     "work":[
       {
+        "company":"Nordstrom",
+        "title":"DevOps Systems Engineer",
+        "years":"August 2020 - Present",
+        "description":"Responsible for software deployment, automation scripting, device configuration, operations and maintenance of on-prem servers, registers, hardware, and operating systems. Led efforts to establish hybrid cloud CICD solution for Store Commerce. Supported selling and fullfilment teams to ensure business continuity via our Brick and Mortar platforms."
+      },
+      {
         "company":"SchoolSAFE Communications",
-        "title":"Software Developer",
-        "years":"September 2019 - July 2020",
+        "title":"Full Stack Software Engineer",
+        "years":"September 2019 - August 2020",
         "description":"Redesigned front and backend of legacy app built in Flash and PHP used for emergency school and 911 communications to utilize new technologies such as PostgreSQL, Node, React, and Redux."
       },
       {
         "company":"Heart Hospital of Austin",
         "title":"Tech Analyst II",
         "years":"May 2017 - January 2019",
-        "description":"Worked at Saint David's Medical Center in downtown Austin until promotion and transfer to Heart Hospital of Austin, supporting the hospital's network infrastructure, systems administration as well as day to day problems with managing 1000+ desktops, laptops, cell phones, and other proprietary devices."
+        "description":"Supported 300 bed hospital network infrastructure. Assisted in Systems Administrator duties, as well as day to day problems with managing 1000+ devices (desktops, laptops, cell phones, and other proprietary hospital devices)."
       },
       {
         "company": "United States Air Force",
         "title": "Radio Frequency Transmissions Specialist (3D1X3)",
         "years": "March 2011 - March 2017",
-        "description": "Worked on Radios, Sattelites and Antennas as a Ground Control Station maintenance technician for the remotely piloted aircraft such as the MQ-1 Predator and MQ-9 Reaper."
+        "description": "Established sattelite locations, long range antennas, and land mobile radios, as a Ground Control Station (GCS) maintenance technician for the Remotely Piloted Aircrafts/Unmanned Aerial Vehicles."
       },
       {
         "company": "Walker Products",
         "title": "Network Administrator",
         "years": "October 2009 - February 2017",
-        "description": "Worked as a Network Administrator, overseeing a variety of day to day operations: including Cisco and Dell Network administration, Windows support and Help Desk, Hardware Repair, Cisco and Panasonic PBX Phone Configuration"
+        "description": "Worked as a Network Administrator, overseeing a variety of day to day operations including Cisco and Dell Network configuration, Firewall Rules, Windows support and Help Desk, Hardware Repair, Cisco and Panasonic PBX Phone Configuration"
       },
       {
         "company": "Goulding Technology",
@@ -82,7 +88,7 @@
       },
       {
         "company": "Premier Home Theater",
-        "title": "Audio VIsual Technician - Network and Phones specialist",
+        "title": "A/V Technician - Network and Phones specialist",
         "years": "May 2007 - September 2007",
         "description": "Contract work for building fully integrated smart homes in the Roaring Fork Valley. Setup networks, phones and home automation consoles."
       },
@@ -90,25 +96,25 @@
         "company": "Paragon Technology Group",
         "title": "Network Technician",
         "years": "November 2006 - April 2007",
-        "description": "Worked as a network technician building and troubleshooting networks to connect smart home devices such as lighting, media servers, phones, security cameras and computers."
+        "description": "Worked as a network technician setting up and troubleshooting networks to connect early smart home IoT devices such as lighting, media servers, video paging, security cameras and computers."
       },
       {
         "company": "ByteMarks Computer Repair",
-        "title": "Computer Repair Technician",
+        "title": "Computer Repair Tech",
         "years": "January 2006 - November 2006",
-        "description": "Worked as a computer repair technician for a small reapir shop. Designed and setup company website, wrote script to enable easier remote troubleshooting of computers with VNC, performed antivirus cleanup, spyware removal and cleanups for client's computers"
+        "description": "Computer repair technician for a small 4 person shop. I performed antivirus/spyware removal, and hardware repairs and upgrades for client's computers. I also designed and setup the company's website in PHP and HTML. Wrote a script to enable easier remote troubleshooting of computers with VNC, using VBS."
       },
       {
-        "company": "Computers4Kids",
-        "title": "Computer Repair Technician",
+        "company": "Computers4Kids AKA Clubhouse",
+        "title": "Computer Repair Tech",
         "years": "January 2006 - July 2006",
-        "description": "Refurbished older donated computers to be upcycled to low income families. Designed process for testing, formatting and reimaging computers, for entire shop. "
+        "description": "Refurbished older donated computers to be upcycled to low income families. Tested the hardware components of donated computers, cannabalizing parts from broken devices, and re-assembling into the best version we could. Created process for testing, formatting and reimaging computers with Windows 2k for entire shop."
       },
       {
         "company": "Community Broadband Network",
-        "title": "Intern Netwroking/ISP support",
+        "title": "Intern Networking/ISP support",
         "years": "September 2005 - March 2006",
-        "description": "First job in the Tech field, setup some long range wideband antennas, learned the basics of the OSI Model, TCP/IP whiles asking a LOT of questions."
+        "description": "First job in the Tech field, setup some long range wideband antennas, learned the basics of the OSI Model, Troubleshooting, Network configuration and how to ask a LOT of questions."
       }
     ],
     "skills":[
