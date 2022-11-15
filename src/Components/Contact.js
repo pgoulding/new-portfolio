@@ -29,9 +29,9 @@ class Contact extends Component {
 
 
 
-  render() {
+   render() {
 
-    if(this.props.data){
+   if(this.props.data){
       var name = this.props.data.name;
       // var street = this.props.data.address.street;
       var city = this.props.data.address.city;
@@ -40,9 +40,9 @@ class Contact extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
-    }
+   }
 
-    return (
+   return (
       <section id="contact">
 
          <div className="row section-head">
@@ -55,15 +55,15 @@ class Contact extends Component {
 
             <div className="ten columns">
 
-                <h2>Contact Details</h2>
+               <h2>Contact Details</h2>
                   <p className="lead">{message}</p>
-                <p className="address">
-                   <span>{name}</span><br />
-                   <span>
-                      {city}, {state}
-                   </span><br />
-                   <span>{phone}</span><br />
-                   <span>{email}</span>
+               <p className="address">
+                  <span>{name}</span><br />
+                  <span>
+                     {city}, {state}
+                  </span><br />
+                  <span>{phone}</span><br />
+                  <span>{email}</span>
                </p>
             </div>
 
@@ -76,18 +76,18 @@ class Contact extends Component {
 					<fieldset>
 
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+                     <label htmlFor="contactName">Name <span className="required">*</span></label>
+                     <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+                     <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+                     <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+                     <label htmlFor="contactSubject">Subject</label>
+                     <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
@@ -102,13 +102,13 @@ class Contact extends Component {
                      </span>
                   </div>
 					</fieldset>
-				   </form>
+               </form>
 
-           <div id="message-warning"> Error boy</div>
-				   <div id="message-success">
+            <div id="message-warning"> Error boy</div>
+               <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
-           </div>
+               </div>
+            </div>
 
 
             <aside className="four columns footer-widgets">
@@ -126,12 +126,12 @@ class Contact extends Component {
                         Tweets by are my own.
                      </a>
                   </div>
-		         </div>
+               </div>
             </aside>
       </div>
    </section>
-    );
-  }
+   );
+   }
 }
 
 export default Contact;

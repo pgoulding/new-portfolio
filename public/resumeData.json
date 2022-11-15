@@ -3,8 +3,8 @@
     "name":"Patrick Goulding",
     "description":"Software Engineer based in Seattle, WA",
     "image":"profilepic.jpg",
-    "bio":"When I'm not trying new recipes, hiking with my dog, or fiddling with IoT automation, I create beautiful and accessible websites. Specializing in JavaScript, React and Node. I'm always open to learning new things and interesting challenges.",
-    "contactmessage":"Contact me by email for technical writing, conference talks, buisness ideas, or presentations. Not currently looking for full time employment.",
+    "bio":"When I'm not creating new recipes, hiking with my dogs, or fiddling with some new IoT automation project, I create beautiful and accessible websites. Specializing in JavaScript, React and Node, however I'm always open to learning new things and up for interesting challenges.",
+    "contactmessage":"Contact me by Email or DM for job opportunities specifically in the Software, Presales, or Platform Engineering space.",
     "email": "patrick@pgoulding.dev",
     "phone": "(484) 301-5385",
     "github":"https://github.com/pgoulding",
@@ -52,8 +52,8 @@
     "work":[
       {
         "company":"Nordstrom",
-        "title":"DevOps Systems Engineer",
-        "years":"August 2020 - Present",
+        "title":"Engineer SE II",
+        "years":"August 2020 - April 2022",
         "description":"Responsible for software deployment, automation scripting, device configuration, operations and maintenance of on-prem servers, registers, hardware, and operating systems. Led efforts to establish hybrid cloud CICD solution for Store Commerce. Supported selling and fullfilment teams to ensure business continuity via our Brick and Mortar platforms."
       },
       {
